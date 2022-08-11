@@ -1,0 +1,43 @@
+// vim:ts=4:sw=4:et
+{
+    "border": "normal",
+    "current_border_width": 2,
+    "floating": "auto_off",
+    "geometry": {
+       "height": 1048,
+       "width": 1916,
+       "x": 1932,
+       "y": 24
+    },
+    "marks": [],
+    "name": "i3: i3 User’s Guide - Google Chrome",
+    "percent": 0.5,
+    "swallows": [
+       {
+         "instance": "^google\\-chrome$"
+       }
+    ],
+    "type": "con"
+}
+
+{
+    "border": "normal",
+    "current_border_width": 2,
+    "floating": "auto_off",
+    "geometry": {
+       "height": 1048,
+       "width": 636,
+       "x": 3202,
+       "y": 14
+    },
+    "marks": [],
+    "name": "workspace-10.json - i3 - Visual Studio Code",
+    "percent": 0.5,
+    "swallows": [
+       {
+         "instance": "^code$"
+       }
+    ],
+    "type": "con"
+}
+
