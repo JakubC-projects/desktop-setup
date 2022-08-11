@@ -1,6 +1,7 @@
 #!/bin/bash
-pacman -Sy
-pacman -S - pkglist.txt
+./install_programs.sh
 ./setup_secrets.sh
 ./setup_config.sh
 ./clone_repos.sh
+
+reboot

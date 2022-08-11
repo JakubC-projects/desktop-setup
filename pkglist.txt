@@ -1,6 +1,9 @@
 lightdm
 lightdm-gtk-greeter
-i3
+i3-wm
+i3lock
+i3status
+dmenu
 git
 go
 rust
@@ -8,7 +11,6 @@ docker
 google-chrome
 firefox
 telegram-desktop
-slack
 qbittorrent
 vlc
 nautilus
