@@ -1,3 +1,3 @@
 sudo pacman -S archlinux-keyring
 sudo pacman -Syu
-sudo pacman - < pkglist.txt
+sudo pacman -S - < pkglist.txt
