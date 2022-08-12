@@ -5,6 +5,7 @@ i3lock
 i3status
 rofi
 alacritty
+zsh
 git
 go
 rust
