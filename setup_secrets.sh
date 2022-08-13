@@ -8,4 +8,5 @@ mkdir ~/.ssh
 gpg -d keys/ssh-general.key.gpg > ~/.ssh/ssh-general.key
 chmod 600 ~/.ssh/ssh-general.key
 cp ./keys/ssh-general.key.pub ~/.ssh/
+eval $(ssh-agent)
 ssh-add ~/.ssh/ssh-general.key
