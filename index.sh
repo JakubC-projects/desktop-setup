@@ -1,5 +1,6 @@
 #!/bin/bash
-./install_programs.sh
+./pacman_programs.sh
+./programs.sh
 ./setup_secrets.sh
 ./setup_config.sh
 ./clone_repos.sh

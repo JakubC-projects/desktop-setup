@@ -1,8 +1,15 @@
 # Enable bluetooth
 systemctl enable bluetooth
 
+# Enable lightdm
+systemctl enable lightdm
+
 # Virtual box
 sudo modprobe vboxdrv
+
+# Docker
+systemctl enable docker
+sudo usermod -a -G docker jakub
 
 
 # git

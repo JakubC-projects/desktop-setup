@@ -1,5 +1,4 @@
 #!/bin/bash
-mkdir ~/repos
 cd ~/repos
 
 git clone git@github.com:bcc-code/bcc-membership.git

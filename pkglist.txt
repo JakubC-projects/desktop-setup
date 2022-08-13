@@ -7,9 +7,11 @@ rofi
 alacritty
 zsh
 git
+git-crypt
 go
 rust
 docker
+docker-compose
 visual-studio-code-bin
 google-chrome
 firefox
