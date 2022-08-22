@@ -212,6 +212,14 @@ bindsym Mod1+n move workspace to output left
 # Setup screen lock
 bindsym Mod4+l exec "i3lock"
 
+# Screenshots
+bindsym Print exec --no-startup-id maim "/home/$USER/Pictures/$(date)"
+bindsym Mod4+Print exec --no-startup-id maim --window $(xdotool getactivewindow) "/home/$USER/Pictures/$(date)"
+bindsym Shift+Print exec --no-startup-id maim --select "/home/$USER/Pictures/$(date)"
+bindsym Ctrl+Print exec --no-startup-id maim | xclip -selection clipboard -t image/png
+bindsym Ctrl+Mod4+Print exec --no-startup-id maim --window $(xdotool getactivewindow) | xclip -selection clipboard -t image/png
+bindsym Ctrl+Shift+Print exec --no-startup-id maim --select | xclip -selection clipboard -t image/png
+
 # Application shortcuts
 bindsym Mod4+g exec "google-chrome-stable"
 bindsym Mod4+c exec "code"
