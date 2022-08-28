@@ -223,12 +223,8 @@ bindsym Ctrl+Shift+Print exec --no-startup-id maim --select | xclip -selection c
 # Application shortcuts
 bindsym Mod4+g exec "google-chrome-stable"
 bindsym Mod4+c exec "code"
-bindsym Mod4+m exec "google-chrome-stable --new-window --profile-directory='Profile 2' https://teams.microsoft.com"
 bindsym Mod4+s exec slack
 bindsym Mod4+t exec "telegram-desktop"
-bindsym Mod4+o exec "google-chrome-stable --new-window --profile-directory='Profile 2' https://outlook.com"
-bindsym Mod4+a exec "google-chrome-stable --new-window --profile-directory='Profile 2' https://console.cloud.google.com/monitoring/dashboards?project=monitoring-membership-team"
-
 
 # Set wallpaper
 exec --no-startup-id nitrogen --restore
