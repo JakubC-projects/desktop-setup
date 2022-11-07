@@ -20,12 +20,12 @@ qbittorrent
 vlc
 nautilus
 arandr
-feh
+autorandr
 bluez
 blueman
 pulseaudio
 pavucontrol
-nitrogen
+feh
 virtualbox-host-modules-arch
 maim
 xclip
