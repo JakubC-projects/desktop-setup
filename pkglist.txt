@@ -20,7 +20,7 @@ qbittorrent
 vlc
 nautilus
 arandr
-autorandr
+feh
 bluez
 blueman
 pulseaudio
