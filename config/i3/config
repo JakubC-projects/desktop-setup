@@ -210,6 +210,10 @@ bindsym Mod4+c exec "code"
 bindsym Mod4+s exec slack
 bindsym Mod4+t exec "telegram-desktop"
 
+# Screen brightness control
+bindsym XF86MonBrightnessUp exec "xbacklight -inc 5; notify-send 'brightness up'"
+bindsym XF86MonBrightnessDown exec "xbacklight -dec 5; notify-send 'brightness down'"
+
 # Set wallpaper
 exec --no-startup-id "picom &"
 
